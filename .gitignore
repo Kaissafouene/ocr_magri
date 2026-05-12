@@ -37,3 +37,4 @@ venv/
 *.sqlite3
 *.db
 tmp-test-bc.pdf
+server/data/storage/
