@@ -1,0 +1,49 @@
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+
+# Async
+anyio==4.4.0
+
+# Database
+sqlalchemy==2.0.30
+asyncpg==0.29.0
+aiosqlite==0.21.0
+alembic==1.13.1
+
+# Validation
+pydantic==2.7.1
+pydantic-settings==2.2.1
+
+# Queue
+celery==5.4.0
+redis==5.0.4
+
+# PDF processing
+pymupdf==1.24.3
+pdf2image==1.17.0
+Pillow==10.3.0
+
+# OCR
+pytesseract==0.3.10
+
+# Image processing
+opencv-python-headless==4.9.0.80
+numpy==1.26.4
+
+# Fuzzy matching
+python-Levenshtein==0.25.1
+
+# Storage
+boto3==1.34.100
+
+# HTTP client (for LLM calls)
+httpx==0.27.0
+
+# Utilities
+python-multipart==0.0.9
+python-dateutil==2.9.0
+babel==2.15.0
+
+# Logging
+structlog==24.1.0
